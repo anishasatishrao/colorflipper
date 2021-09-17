@@ -1,0 +1,52 @@
+.nav-center
+{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+    color: darkturquoise;
+}
+
+body
+{
+    width: 100%;
+    // height: auto;
+    // background-image:linear-gradient(rgb(8, 44, 44),rgba(40, 40, 104, 0.671));
+    background-repeat: no-repeat;
+    // background-size:100%;
+}
+.container
+{
+    padding: 5%;
+    margin-left: 25%;
+    // background-color: darkslategrey;
+    // border: 2px solid darkslategrey;
+    // font-style: italic;
+    font-family: 'Staatliches', cursive;
+}
+.container:hover
+{
+    color: chartreuse;
+}
+#btn
+{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chartreuse;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: black;
+    margin-left: 20%;
+}
+#btn:hover
+{
+    width: 130px;
+     height: 45px;
+    box-shadow: black;
+    background-color: greenyellow;
+    color:black;
+    // font-style: oblique;
+    font-family: 'Staatliches', cursive;
+}
